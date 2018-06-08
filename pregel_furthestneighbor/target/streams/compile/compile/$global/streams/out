@@ -1,0 +1,13 @@
+[0m[[0m[31merror[0m] [0m[0m/mnt/c/Users/Aditya Chatterjee/Desktop/graphx/pregel_furthestneighbor/src/main/scala/simpleApp.scala:26:67: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Int[0m
+[0m[[0m[31merror[0m] [0m[0m required: (Int, Int)[0m
+[0m[[0m[31merror[0m] [0m[0m                            (id:VertexId,vd:Int,a:Int) => math.max(vd,a),[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/mnt/c/Users/Aditya Chatterjee/Desktop/graphx/pregel_furthestneighbor/src/main/scala/simpleApp.scala:27:58: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : org.apache.spark.graphx.EdgeTriplet[Int,String] => Iterator[(org.apache.spark.graphx.VertexId, Int)][0m
+[0m[[0m[31merror[0m] [0m[0m    (which expands to)  org.apache.spark.graphx.EdgeTriplet[Int,String] => Iterator[(Long, Int)][0m
+[0m[[0m[31merror[0m] [0m[0m required: org.apache.spark.graphx.EdgeTriplet[(Int, Int),Boolean] => Iterator[(org.apache.spark.graphx.VertexId, Int)][0m
+[0m[[0m[31merror[0m] [0m[0m    (which expands to)  org.apache.spark.graphx.EdgeTriplet[(Int, Int),Boolean] => Iterator[(Long, Int)][0m
+[0m[[0m[31merror[0m] [0m[0m                            (et:EdgeTriplet[Int,String]) => Iterator((et.dstId, et.srcAttr+1)),[0m
+[0m[[0m[31merror[0m] [0m[0m                                                         ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

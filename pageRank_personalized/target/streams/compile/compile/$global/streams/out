@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0m/mnt/c/Users/Aditya Chatterjee/Desktop/graphx/pageRank_personalized/src/main/scala/simpleApp.scala:19:5: not found: value spark[0m
+[0m[[0m[31merror[0m] [0m[0m    spark.stop()[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

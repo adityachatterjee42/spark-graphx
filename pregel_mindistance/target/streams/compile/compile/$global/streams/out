@@ -1,0 +1,10 @@
+[0m[[0m[31merror[0m] [0m[0m/mnt/c/Users/Aditya Chatterjee/Desktop/graphx/pregel_mindistance/src/main/scala/simpleApp.scala:13:19: not found: type RDD[0m
+[0m[[0m[31merror[0m] [0m[0m    val vertices: RDD[(VertexId, (Int, Int))] = sc.parallelize(Array((1L, (7,-1)), (2L, (3,-1)), (3L, (2,-1)), (4L, (6,-1))))[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/mnt/c/Users/Aditya Chatterjee/Desktop/graphx/pregel_mindistance/src/main/scala/simpleApp.scala:14:24: not found: type RDD[0m
+[0m[[0m[31merror[0m] [0m[0m    val relationships: RDD[Edge[Boolean]] = sc.parallelize(Array(Edge(1L, 2L, true), Edge(1L, 4L, true), Edge(2L, 4L, true), Edge(3L, 1L, true), Edge(3L, 4L, true)))[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/mnt/c/Users/Aditya Chatterjee/Desktop/graphx/pregel_mindistance/src/main/scala/simpleApp.scala:54:5: not found: value spark[0m
+[0m[[0m[31merror[0m] [0m[0m    spark.stop()[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m

@@ -1,0 +1,10 @@
+[0m[[0m[31merror[0m] [0m[0m/mnt/c/Users/Aditya Chatterjee/Desktop/graphx/generate_graphs/src/main/scala/simpleApp.scala:31:9: pw is already defined as variable pw[0m
+[0m[[0m[31merror[0m] [0m[0m    var pw = new java.io.PrintWriter("starGraph.gexf")[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/mnt/c/Users/Aditya Chatterjee/Desktop/graphx/generate_graphs/src/main/scala/simpleApp.scala:35:9: pw is already defined as variable pw[0m
+[0m[[0m[31merror[0m] [0m[0m    var pw = new java.io.PrintWriter("logNormalGraph.gexf")[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/mnt/c/Users/Aditya Chatterjee/Desktop/graphx/generate_graphs/src/main/scala/simpleApp.scala:38:9: pw is already defined as variable pw[0m
+[0m[[0m[31merror[0m] [0m[0m    var pw = new java.io.PrintWriter("rmatGraph.gexf")[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m

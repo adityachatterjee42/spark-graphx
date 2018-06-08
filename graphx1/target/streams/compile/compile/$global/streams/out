@@ -1,0 +1,7 @@
+[0m[[0m[31merror[0m] [0m[0m/mnt/c/Users/Aditya Chatterjee/Desktop/graphx/graphx1/src/main/scala/simpleApp.scala:17:34: value mkString is not a member of (org.apache.spark.graphx.VertexId, String)[0m
+[0m[[0m[31merror[0m] [0m[0m    val strings = vertices.map(_.mkString(" "))[0m
+[0m[[0m[31merror[0m] [0m[0m                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/mnt/c/Users/Aditya Chatterjee/Desktop/graphx/graphx1/src/main/scala/simpleApp.scala:18:13: value foreach is not a member of Array[Nothing][0m
+[0m[[0m[31merror[0m] [0m[0m    strings.foreach { bw.write }[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

@@ -1,0 +1,10 @@
+[0m[[0m[31merror[0m] [0m[0m/mnt/c/Users/Aditya Chatterjee/Desktop/graphx/app1/src/main/scala/simpleApp.scala:5:20: not found: type File[0m
+[0m[[0m[31merror[0m] [0m[0m    val file = new File("/mnt/c/Users/Aditya Chatterjee/Desktop/graphx")[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/mnt/c/Users/Aditya Chatterjee/Desktop/graphx/app1/src/main/scala/simpleApp.scala:6:18: not found: type BufferedWriter[0m
+[0m[[0m[31merror[0m] [0m[0m    val bw = new BufferedWriter(new FileWriter(file))[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/mnt/c/Users/Aditya Chatterjee/Desktop/graphx/app1/src/main/scala/simpleApp.scala:6:37: not found: type FileWriter[0m
+[0m[[0m[31merror[0m] [0m[0m    val bw = new BufferedWriter(new FileWriter(file))[0m
+[0m[[0m[31merror[0m] [0m[0m                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
